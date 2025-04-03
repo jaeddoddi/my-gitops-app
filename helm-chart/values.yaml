@@ -1,0 +1,11 @@
+image:
+  repository: jaeddoddi/my-gitops-app
+  tag: latest
+  pullPolicy: Always
+
+replicaCount: 2
+
+service:
+  type: ClusterIP
+  port: 80
+
